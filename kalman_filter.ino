@@ -17,6 +17,10 @@ float ACC[3];
 float w[3]; // corrected spin velocity
 float MAG[3]; // north vector
 
+uint16_t count = 0;  
+uint16_t delt_t = 0; 
+uint16_t mcount = 0;
+
 float p_is[4] = {0.0, 0.0, 0.0, 0.0};
 float p_ig[4] = {0.0, 0.0, 1.0, 0.0};
 float ax, ay, az, gx, gy, gz, mx, my, mz; // variables to hold latest sensor data values 
