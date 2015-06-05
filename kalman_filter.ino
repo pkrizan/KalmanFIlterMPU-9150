@@ -113,7 +113,7 @@ void loop() {
           p_is[0]/=100.0;
           p_is[1]/=100.0;
           p_is[2]/=100.0;
-          p_is[0] = sqrt(p_is[0]*p_is[0] + p_is[1]*p_is[1])*cos(0/180*PI); // 3.23 - kut inklinacije
+          p_is[0] = sqrt(p_is[0]*p_is[0] + p_is[1]*p_is[1])*cos(0/180*PI); // 3.23 - inclination angle
           p_is[1] = -sqrt(p_is[0]*p_is[0] + p_is[1]*p_is[1])*sin(0/180*PI);
           VNormalize(p_is);          
          }
